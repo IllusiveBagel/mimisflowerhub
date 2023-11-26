@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+:root {
+	--yellow: #ffcd54;
+	--blue:  #011936;
+}
+
+body {
+	margin: 0;
+	font-family: 'Petit Formal Script', cursive;
+	background-color: var(--blue);
+}
