@@ -18,7 +18,7 @@ const Navigation = () => {
 		<div className={styles.navBar}>
 			<div className={styles.menu}>
 				{leftMenu.map((menuItem) => {
-					return <a href={menuItem.url}>{menuItem.title}</a>
+					return <a href={menuItem.url} key={menuItem.url}>{menuItem.title}</a>
 				})}
 			</div>
 			<div className={styles.heading}>
@@ -27,7 +27,7 @@ const Navigation = () => {
 			</div>
 			<div className={styles.menu}>
 				{rightMenu.map((menuItem) => {
-					return <a href={menuItem.url}>{menuItem.title}</a>
+					return <a href={menuItem.url} key={menuItem.url}>{menuItem.title}</a>
 				})}
 			</div>
 		</div>
